@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(mainRoutes);
 
-const port = 3003;
+const port = parseInt(<string>process.env.PORT, 10) || 3003;
 app.listen(port, "", () => {
   console.log(`nextjs stack api running on port ${port}`);
 });
