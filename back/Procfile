@@ -1,0 +1,1 @@
+web: yarn workspace nextjs-stack-back start

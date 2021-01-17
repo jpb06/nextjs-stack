@@ -1,7 +1,6 @@
 {
   "name": "nextjs-stack",
   "version": "1.0.0",
-  "main": "index.js",
   "private": true,
   "repository": "https://github.com/jpb06/nextjs-stack",
   "author": "jpb06 <jpb.06@outlook.com>",
