@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "cd .. && yarn front:dev",
     "start": "next start -p $PORT",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write .",
