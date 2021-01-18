@@ -5,10 +5,6 @@
   "repository": "https://github.com/jpb06/nextjs-stack",
   "author": "jpb06 <jpb.06@outlook.com>",
   "license": "MIT",
-  "workspaces": [
-    "back",
-    "front"
-  ],
   "scripts": {
     "front:dev": "yarn workspace nextjs-stack-front dev",
     "front:build": "yarn workspace nextjs-stack-front build",
